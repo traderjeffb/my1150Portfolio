@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-color: cornflowerblue;
+  padding: 0 !important;
+}
+.navbar-nav li {
+  padding: 0 10;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  margin-right: 15px;
+  float: right;
+  text-align: left;
+}
+.navbar-brand {
+  margin-left: 20px;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+/* -------banner section-------------- */
+#banner {
+  background-image: linear-gradient(to right, crimson, rgb(226, 61, 94));
+  color: #fff;
+  padding-top: 5%;
+}
+.promo-title-img {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 20px;
+}
+.promo-title {
+  text-align: left;
+}
+.skills-promo-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+#skills-img {
+  width: 1000px;
+}
+.self-image {
+  width: 60%;
+  margin-bottom: 100px;
+}
+.image-fluid {
+  width: 60%;
+}
+/* --------projects section */
+#Projects {
+  margin-bottom: 150px;
+  margin-top: 350px;
+}
+.projects-img {
+  width: 300px;
+}
+a* {
+  text-decoration: none;
+}
+#services {
+  padding-top: 80px 0;
+}
+.service-img {
+  width: 100px;
+  margin-top: 20px;
+}
+.services {
+  padding: 20px;
+}
+/* -----------Contact Section */
+#Contact {
+  text-align: center;
+  margin-top: 350px;
+  margin-bottom: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  background-color: rgb(252, 248, 240);
+}
+/* ------footer section----- */
+.footer {
+  text-align: center;
+  background-color: whitesmoke;
+  height: 30px;
+}
